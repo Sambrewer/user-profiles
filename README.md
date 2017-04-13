@@ -144,7 +144,7 @@ On to `profileCtrl.js`. Again, create your module.exports object.
 
 Let's create a method called `getFriendsProfiles`. Your current user has a friends array which contains a list of names. For each friend in this array, you will need to find the corresponding profile object in the profiles array. Push these matching profile objects to a new array.  
 
-(Hint: You'll need to loop over the currentUser's friends, and for each friend, you will need to loop over the profiles array.) 
+(Hint: You'll need to loop over the currentUser's friends, and for each friend, you will need to loop over the profiles array.)
 
 Then `res.send` an object back containing our new array and the current user. The response object should be structured something like this:
 
